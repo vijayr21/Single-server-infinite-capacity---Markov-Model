@@ -7,26 +7,21 @@ Visual components and Python
 
 ## Theory:
 Queuing are the most frequently encountered problems in everyday life. For example, queue at a cafeteria, library, bank, etc. Common to all of these cases are the arrivals of objects requiring service and the attendant delays when the service mechanism is busy. Waiting lines cannot be eliminated completely, but suitable techniques can be used to reduce the waiting time of an object in the system. A long waiting line may result in loss of customers to an organization. Waiting time can be reduced by providing additional service facilities, but it may result in an increase in the idle time of the service mechanism.
-
 ![image](1.png)
-
 This is a queuing model in which the arrival is Marcovian and departure distribution is also Marcovian,number of server is one and size of the queue is also Marcovian,no.of server is one and size of the queue is infinite and service discipline is 1st come 1st serve(FCFS) and the calling source is also finite.
-
 ## Procedure :
 
 ![imAGE](2.png)
 
 ## Experiment:
-![Exp 4 1](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/2960ee3e-7325-4e09-85e1-ae816ceaaab3)
 
-![Exp 4 2](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/f5b111fa-a1b3-47ce-b862-a071560beec0)
+![240808114-5c59ac63-53ac-42fb-823f-06f748465b54](https://github.com/22003264/Single-server-infinite-capacity---Markov-Model/assets/119389139/56d65950-f0a1-4c1d-827e-276d1ed3a3e2)
 
 ## Program
 ```
 Developed By:vijay R
-Register No:212223240178
-```
-```
+Reference No:212223240178
+
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
 Robot_time=float(input("Enter the Additional time taken for the Robot (in secs) :  "))
@@ -52,11 +47,8 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("---------------------------------------------------------------")
 ```
-
 ## Output :
-![out](https://github.com/21003698/Single-server-infinite-capacity---Markov-Model/assets/93427522/56a83ac2-cbd6-41e5-a0ab-788d37c1160d)
-
+![image](https://github.com/22003264/Single-server-infinite-capacity---Markov-Model/assets/119389139/8a972135-b788-47b4-8184-2cd1dc91eec4)
 
 ## Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
-
